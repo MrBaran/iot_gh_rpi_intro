@@ -12,7 +12,7 @@ while True:
     #print("state =", switch_state)
     #switch_status = ghs.switches.toggle.get_status()
     #print("status =", switch_status)
-    if switch_state.is_on():
+    if ghs.switches.toggle.is_on():
         ghs.fan.on()
     else:
         ghs.fan.off()
