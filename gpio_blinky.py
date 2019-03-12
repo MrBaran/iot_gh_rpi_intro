@@ -12,8 +12,8 @@ GPIO.setup(3, GPIO.OUT)
 
 for i in range(0, 50):
     GPIO.output(3,True)
-    time.sleep(1)
+    sleep(1)
     GPIO.output(3,False)
-    time.sleep(1)
+    sleep(1)
 
 GPIO.cleanup()
